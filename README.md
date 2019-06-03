@@ -3,7 +3,7 @@
 ## Authors: Anselmo Ferreira, Siovani C. Felipussi, Ramon Pires, Sandra Avila, Geise Santos, Jorge Lambert, Jiwu Huang and Anderson Rocha
 
 This is the source code related to the solution we proposed in our paper published at the IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing. In this paper, we built, in collaboration with the Brazilian Federal Police, the first dataset and the first data-driven approach for identifying drug crops (i.e., Marijuana crops)
-from remote sensing images.
+from remote sensing images. The paper can be found at https://ieeexplore.ieee.org/document/8726132
 
 ## Environment and Dependencies
 
