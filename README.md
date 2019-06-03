@@ -2,10 +2,9 @@
 
 ## Authors: Anselmo Ferreira, Siovani C. Felipussi, Ramon Pires, Sandra Avila, Geise Santos, Jorge Lambert, Jiwu Huang and Anderson Rocha
 
-> This is the source code from our submitted paper to IEEE Transactions in Image Processing. In this paper, we built, 
+> This is the source code from our submitted paper to IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing. In this paper, we built, 
 in collaboration with the Brazilian Federal Police, the first dataset and the first data-driven approach for identifying drug crops (i.e., Marijuana crops)
-from remote sensing images. The paper is currently under review so, to protect the intellectual property of our research, we did not publish (for now)
-the models of our data-driven models nor the dataset, which shall be published under the paper acceptance.
+from remote sensing images.
 
 ## Environment and Dependencies
 
@@ -20,8 +19,14 @@ Models contained in the "models" folder are empty models. We are intending to re
 #### Changes in the code
 
  You just need to change the filepaths contained at fold-data files, pointing them to where the dataset is in your computer. We are not intending 
- to let the code running in this platform, so, you need to download the dataset and run the code in your computer. 
+ to let the code running in this platform, so, you need to download the dataset and run the code in your computer/server. 
 
 ## How to run the code
 
-Just run demo.py. The code will use individual proposed models and the ensembled model to generate feature vectors for training and testing an SVM classifier.
+Just run demo.py. The code will use individual proposed models and the ensembled model to classify testing data.
+
+We will also add the code to train the individual and fused model very soon.
+
+Any doubts please contact me:
+
+Anselmo Ferreira (anselmo.ferreira@gmail.com)
