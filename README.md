@@ -29,7 +29,9 @@ On train_the_models there is the code to train the individual and fused models
 
 I am not using SMOTE nor another CNN as you can see in main.py. This happens because I lost the submodel's 3 weights for both bags (probably I did not save them or overwritted the model files after the two-fold cross validation) :-(.
 
-You can try SMOTE here, or you can try training submodel 3 from the folder train_the_models folder. The difference will not be too much (about 0.5/1% in accuracy)
+I am using in the code a previous version of the experiment, which applies the normalized fused feature vectors to an SVM classifier.
+
+You can try SMOTE in the code, or you can try training submodel 3 from the folder train_the_models folder and also add SMOTE in the training data. The difference in terms of accuracy will not be too much (about 0.5/1% in accuracy)
 
 Any doubts please contact me:
 
