@@ -4,7 +4,7 @@ from keras.models import model_from_json
 import numpy
 import os
 from sklearn import preprocessing
-
+#A code to normalize input feature vectors
 def normalize(train_vector, test_vector, normalization_approach):
 
 		
