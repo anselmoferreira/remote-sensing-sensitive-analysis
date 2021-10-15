@@ -27,7 +27,7 @@ On train_the_models there is the code to train the individual and fused models
 
 ## NOTES
 
-I am not using SMOTE nor another CNN as you can see in main.py. This happens because I lost the submodel's 3 weights for both bags (probably I did not save them or overwritted the model files after the two-fold cross validation) :-(.
+I am not using SMOTE as you can see in main.py. This happens because I lost the submodel's 3 weights for both bags (probably I did not save them or overwritted the model files after the two-fold cross validation) :-(
 
 I am using in the code a previous version of the experiment, which applies the normalized fused feature vectors to an SVM classifier.
 
